@@ -1,5 +1,6 @@
 import type { RegisteredComponent } from "@builder.io/sdk-qwik";
 import Counter from "./counter/counter";
+import { RouterHead } from "../D:\\Builder Experiments\\src\\components\\router-head\\router-head";
 
 /**
  * This array is used to integrate custom components within Builder.
@@ -21,5 +22,5 @@ export const CUSTOM_COMPONENTS: RegisteredComponent[] = [
         type: "number",
       },
     ],
-  },
+  }
 ];
